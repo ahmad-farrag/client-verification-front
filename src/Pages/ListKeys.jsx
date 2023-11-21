@@ -32,7 +32,7 @@ function ListKeys() {
 
 			<h3> to get a certain key please use the following API</h3>
 
-			<code> {window.location.href}v1/hash/:key</code>
+			<code> {API_BASE_URL}/v1/hash/:key</code>
 		</div>
 	);
 }
