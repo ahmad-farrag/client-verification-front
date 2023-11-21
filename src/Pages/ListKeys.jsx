@@ -10,7 +10,7 @@ function ListKeys() {
     setLoading(true);
     getAllKeys()
       .then((k) => {
-        setKeys(k);
+        setKeys(k.map((k) => k.value));
         setLoading(false);
       })
       .catch((e) => {
