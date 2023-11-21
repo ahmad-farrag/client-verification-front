@@ -1,5 +1,9 @@
 import { API_BASE_URL, LOCAL_STORAGE_PASS_KEY } from "../constants";
 
+/**
+ *
+ * @returns {key:string, value:string}
+ */
 export async function getAllKeys() {
   const URL = `${API_BASE_URL}/v1/hash/all`;
 
